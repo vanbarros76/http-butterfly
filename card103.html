@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>HTTP Butterfly</title>
+</head>
+<body>
+    <div class="page-103-early-hints">
+        <img src="img/butterfly.svg" alt="Logo" class="logo">
+    </div>
+
+    <div class="page-103">
+        <h1 class="head-title">HTTP Butterfly</h1>
+    </div>
+
+    <div class="container">
+        <div class="content">
+            <h2>Early Hints</h2>
+            <img src="https://images.pexels.com/photos/325967/pexels-photo-325967.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+             alt="Imagem relacionada ao HTTP 103 Processing" class="main-image">
+        
+
+            <h3 class="Descrição"></h3>
+            <p class="texto-justificado">
+                A resposta de informações <strong>HTTP</strong> pode ser enviada por um servidor enquanto ele ainda está preparando uma resposta, com dicas 
+                sobre os recursos que o servidor espera que a resposta final vincule.<br><br>
+                Isso permite que um navegador comece a pré-carregar recursos antes mesmo que o servidor tenha preparado e enviado a resposta final.<br><br>
+                A resposta de dica inicial destina-se principalmente ao uso com o cabeçalho Link , que indica os recursos a serem carregados.<br><br>
+                Ele também pode conter um cabeçalho "Content-Security-Policy", que é aplicado durante o processamento da dica inicial.<br><br>
+                Um servidor pode enviar várias "103" respostas, por exemplo, após um redirecionamento. Os navegadores processam apenas a primeira 
+                resposta de dica inicial, e essa resposta deve ser descartada se a solicitação resultar em um redirecionamento de origem cruzada. 
+                Os recursos pré-carregados da dica inicial são efetivamente pré-anexados ao "Document" elemento do head e, em seguida, seguidos pelos
+                recursos carregados na resposta final.
+            </p>
+        </div>        
+    </div>
+
+    <div class="footer">
+        <div class="footer-social">
+            <a href="https://github.com/vanbarros76" target="_blank">
+                <img src="img/github.png" alt="github" class="github" width="26" />
+            </a>
+
+            <a href="https://www.instagram.com/vanessabarrostech/" target="_blank">
+                <img src="img/instagram.png" alt="instagram" class="instagram" width="26" />                
+            </a>
+
+            <a href="https://www.linkedin.com/in/vanessabarros-tech/" target="_blank">
+                <img src="img/linkedin.png" alt="linkedin" class="linkedin" width="26" />
+            </a>
+        </div>
+
+        <p>Desenvolvido por <a href="https://www.instagram.com/vanessabarrostech/" target="_blank">@vanessa</a></p>
+    </div>
+    
+</body>
+</html>
